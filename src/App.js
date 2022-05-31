@@ -59,7 +59,7 @@ function App() {
                         ? { color: "green" }
                         : { color: "red" }
                     }>
-                  {Number(coin.priceChangePercent)}
+                  {Number(coin.priceChangePercent).toFixed(2)}
                   </td>
                 </tr>
               );
