@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'GT Eesti Pro Display';
+  src: url('./assets/GTEestiProDisplay-Medium.ttf');
+}
+@font-face {
+  font-family: 'GT Eesti Pro Display thin';
+  src: url('./assets/GTEestiProDisplay-Thin.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  background: rgb(56, 68, 86);
+  font-family: 'GT Eesti Pro Display';
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+table {
+  background-color: #e0e9f3;
+  margin: auto;
+  padding: 5px 60px;
+}
+.titles {
+  text-align: center;
+  font-family: 'GT Eesti Pro Display thin';
+
+}
+.bottom-logo > img {
+  width: 100px;
+  padding-top:25px;
+}
+nav img {
+  width: 3%;
+  padding-right: 50px;
+}
+nav input {
+  background-color: #edf3f9;
+  border: none;
+  padding: 5px 15px;
+}
+::placeholder {
+  text-align: center;
+}
+.main-content > h2 {
+  color: #e0e9f3;  
+  text-shadow: -1px 1px 1px #000,
+				  1px 1px 2px #000;
+  font-size: 40px;
+}
+
+td {
+  text-align: left;
+  padding: 3px 15px;
+}
+th {
+  text-align: left;
+  padding: 3px 15px;
 }
