@@ -43,6 +43,7 @@ nav input {
 }
 ::placeholder {
   text-align: center;
+  font-style: italic;
 }
 .main-content > h2 {
   color: #e0e9f3;  

@@ -17,14 +17,3 @@ root.render(
 reportWebVitals();
 
 
-// <tr key={coin.symbol}>
-//   <td>{i + 1}</td>
-//   <td>{coinNames[coin.symbol]}</td>
-//   <td>${Number(coin.lastPrice).toLocaleString()}</td>
-//   <td
-//     style={
-//       Number(coin.priceChangePercent) > 0
-//         ? { color: "green" }
-//         : { color: "red" }
-//     }
-//   ></td>
